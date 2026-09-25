@@ -1,0 +1,24 @@
+{
+	"datos_personales":{
+		"nombre":" Jose Dario",
+		"apellidos":"Torres Hernandez",
+		"email":{
+			"empresa":"josedarioth@gmail.com",
+			"personal":"josedarioth19@gmail.com"
+			
+		},
+		"experiencia_profesional":"trabaje 5 años en un centro medico",
+		"empresa":"centro medico Dra. Yelixa Hernandez",
+		"puesto":" asistente medico",
+		"inicio":"2019-04",
+		"final":"2023-06"
+	},
+	"otra cosa":{
+		"formacion":"colegio trinidad figueira",
+
+		"idiomas":"Español,Ingles",
+		"nivel":"basico",
+		
+		"hobbies":["ver futbol","jugar futbol","cocinar"]
+	}
+}
