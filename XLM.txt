@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<curriculum>
+    <datos_personales>
+        <datos>personales</datos> 
+        <nombre>Jose Dario</nombre>
+        <apellidos>Torres Hernandez</apellidos>
+        <email>josedarioth19@gmail.com</email>
+    </datos_personales>
+    <experiencias>
+        <experiencia>
+            <empresa>Dra Yelixa Hernandez</empresa>
+            <cargo>asistente medico</cargo>
+            <inicio>2019-04</inicio>
+            <fianl>2023-06</fianl>
+        </experiencia>
+        <experiencia>
+            <empresa>McCaffre'ys</empresa>
+            <cargo>customer service</cargo>
+            <inicio>2023-11</inicio>
+            <final>2025-05</final>
+        </experiencia>
+    </experiencias>
+    <formacion>
+        <formacion>Trinidad Figueira</formacion>
+    </formacion>
+    <otras_cosas>
+        <otras_cosas>me gusta el futbol</otras_cosas>
+        <otras_cosas>me gusta cocinar</otras_cosas>
+    </otras_cosas>
+</curriculum>
