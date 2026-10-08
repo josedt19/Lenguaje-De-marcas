@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.josedario.com/curriculum"
+           xmlns:Dario="http://www.josedario.com/curriculum"
+           elementFormDefault="qualified">
+
+    <xs:element name="curriculum">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="datos_personales">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="datos" type="xs:string" fixed="personales"/>
+                            <xs:element name="nombre" type="xs:string" fixed="Jose Dario"/>
+                            <xs:element name="apellidos" type="xs:string" fixed="Torres Hernandez"/>
+                            <xs:element name="email" type="xs:string" fixed="josedarioth19@gmail.com"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="experiencias">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="experiencia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+
+                                        <xs:element name="empresa">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Dra Yelixa Hernandez"/>
+                                                    <xs:enumeration value="McCaffre'ys"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <xs:element name="cargo">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="asistente medico"/>
+                                                    <xs:enumeration value="customer service"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <xs:element name="inicio">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:gYearMonth">
+                                                    <xs:enumeration value="2019-04"/>
+                                                    <xs:enumeration value="2023-11"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <xs:element name="final">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:gYearMonth">
+                                                    <xs:enumeration value="2023-06"/>
+                                                    <xs:enumeration value="2025-05"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="formacion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="formacion" type="xs:string" fixed="Trinidad Figueira" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="otras_cosas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="otras_cosas" maxOccurs="unbounded">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="me gusta el futbol"/>
+                                        <xs:enumeration value="me gusta cocinar"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
