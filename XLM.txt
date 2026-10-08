@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UFT-8"?>
-<curriculum>
-    <datos_personales>
-        <datos>personales</datos> 
-        <nombre>Jose Dario</nombre>
-        <apellidos>Torres Hernandez</apellidos>
-        <email>josedarioth19@gmail.com</email>
-    </datos_personales>
-    <experiencias>
-        <experiencia>
-            <empresa>Dra Yelixa Hernandez</empresa>
-            <cargo>asistente medico</cargo>
-            <inicio>2019-04</inicio>
-            <fianl>2023-06</fianl>
-        </experiencia>
-        <experiencia>
-            <empresa>McCaffre'ys</empresa>
-            <cargo>customer service</cargo>
-            <inicio>2023-11</inicio>
-            <final>2025-05</final>
-        </experiencia>
-    </experiencias>
-    <formacion>
-        <formacion>Trinidad Figueira</formacion>
-    </formacion>
-    <otras_cosas>
-        <otras_cosas>me gusta el futbol</otras_cosas>
-        <otras_cosas>me gusta cocinar</otras_cosas>
-    </otras_cosas>
-</curriculum>
+<?XML versión="1.0" encoding="UTF-8"?>
+<Dario:curriculum xmlns:Dario="http://www.josedario.com/curriculum">
+<Dario:datos_personales>
+<Dario:datos>personales</Dario:datos>
+<Dario:nombre>Jose Dario</Dario:nombre>
+<Dario:apellidos>Torres Hernandez</Dario:apellidos>
+<Dario:email>josedarioth19@gmail.com</Dario:email>
+</Dario:datos_personales>
+<Dario:experiencias>
+<Dario:experiencia>
+<Dario:empresa>Dra Yelixa Hernandez</Dario:empresa>
+<Dario:cargo>asistente medico</Dario:cargo>
+<Dario:inicio>2019-04</Dario:inicio>
+<Dario:final>2023-06</Dario:final>
+</Dario:experiencia>
+<Dario:experiencia>
+<Dario:empresa>McCaffre'ys</Dario:empresa>
+<Dario:cargo>customer service</Dario:cargo>
+<Dario:inicio>2023-11</Dario:inicio>
+<Dario:final>2025-05</Dario:final>
+</Dario:experiencia>
+</Dario:experiencias>
+<Dario:formacion>
+<Dario:formacion>Trinidad Figueira</Dario:formacion>
+</Dario:formacion>
+<Dario:otras_cosas>
+<Dario:otras_cosas>me gusta el futbol</Dario:otras_cosas>
+<Dario:otras_cosas>me gusta cocinar</Dario:otras_cosas>
+</Dario:otras_cosas>
+</Dario:curriculum>
